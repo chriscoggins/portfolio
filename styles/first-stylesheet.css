@@ -7,9 +7,17 @@ body {
   margin: 2rem;
 }
 
+header {
+  background-color: grey;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
 img {
   display: block;
   margin: auto;  
+  border-radius: 1rem;
+  background-color: grey;
 }
 
 img.img-lg {
@@ -18,6 +26,7 @@ img.img-lg {
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: 3rem;
+  padding: 12px 6px;
 }
 
 div.sec {
@@ -33,6 +42,7 @@ div.sec-sm {
 img.img-med-lt {
   display: block;  
   height: auto;
+  padding: 12px 6px;
 }
 
 img.img-sm-lt {
@@ -51,6 +61,8 @@ div.img-cont {
 img.img-ct {
   float: left;
   width: 48%;
+  padding: 12px 6px;
+  margin-top: 1rem;
 }
 
 .lt {
@@ -73,6 +85,7 @@ p.p-rt {
   width: 70%;
   margin-right: 3rem;
   margin-left: 2rem;
+  padding-left: 1rem;
 } 
 
 aside {
@@ -84,6 +97,9 @@ aside {
 footer {
   display: block;
   float: left;
-  width: 100%;
-  margin: 0 0 2rem;
+  width: 95%;
+  background-color: grey;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
 }
