@@ -1,0 +1,51 @@
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	background: url(../images/cork-wallet.png) repeat;
+	margin: 2rem;
+}
+p {
+  float: right;
+  width: 49%;
+}
+img {
+  display: block;
+  margin: auto;  
+}
+
+div.sec {
+  margin-top: 2rem;
+  height: 350px;
+}
+
+img.img-med-lt {
+  display: block;  
+  height: auto;
+}
+
+img.img-sm-lt {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+img.img-ct{
+  float: left;
+  width: 48%;
+}
+
+p.p-lt{
+  float: right;
+  width: 50%;
+}
+
+#background { 
+	background-color: #050404;
+	display: block;
+	height: 1440px;
+	width: 50%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
