@@ -1,22 +1,33 @@
 html {
-	font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;   
 }
 body {
-	background: url(../images/cork-wallet.png) repeat;
-	margin: 2rem;
+  background: url(../images/cork-wallet.png) repeat;
+  margin: 2rem;
 }
-p {
-  float: right;
-  width: 49%;
-}
+
 img {
   display: block;
   margin: auto;  
 }
 
+img.img-lg {
+  float: left;
+  width: 80%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+}
+
 div.sec {
   margin-top: 2rem;
   height: 350px;
+}
+
+div.sec-sm {
+  margin-top: 2rem;
+  height: 300px;
 }
 
 img.img-med-lt {
@@ -25,27 +36,54 @@ img.img-med-lt {
 }
 
 img.img-sm-lt {
-  padding: 0 6px;
+  padding: 12px 6px;
   float: left;
-  width: 24.99999%;
+  width: 200px; 
+  height: 250px;
+  margin-right: 1rem;
+  margin-left: 3rem;
 }
 
-img.img-ct{
+div.img-cont {
+  width 15%;
+}
+
+img.img-ct {
   float: left;
   width: 48%;
 }
 
-p.p-lt{
+.lt {
+  float: left;
+  width: 100%;
+}
+
+.rt {
   float: right;
+  width: 49%;
+}
+
+p.p-lt {
+  float: left;
   width: 50%;
 }
 
-#background { 
-	background-color: #050404;
-	display: block;
-	height: 1440px;
-	width: 50%;
-	position: absolute;
-	left: 0;
-	top: 0;
+p.p-rt {
+  float: right;
+  width: 70%;
+  margin-right: 3rem;
+  margin-left: 2rem;
+} 
+
+aside {
+  display: block;
+  float: left;
+  width: 100%;
+  }
+
+footer {
+  display: block;
+  float: left;
+  width: 100%;
+  margin: 0 0 2rem;
 }
